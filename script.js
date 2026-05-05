@@ -1,51 +1,61 @@
 let users=[
     {
         name:"alpesh sorte",
+        age:23,
         pic:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh0XZ3VwZvR4FXsOTPE--BiHaTlf0EDDqwuQ&s",
         bio:"it is a software developer"
     },
      {
         name: "Riya Sharma",
+        age:43,
         pic: "https://randomuser.me/api/portraits/women/2.jpg",
         bio: "Frontend developer and UI designer"
     },
     {
         name: "Aman Verma",
+        age:67,
         pic: "https://randomuser.me/api/portraits/men/3.jpg",
         bio: "Backend developer working with Node.js"
     },
     {
         name: "Sneha Patil",
+        age:56,
         pic: "https://randomuser.me/api/portraits/women/4.jpg",
         bio: "Full stack developer and problem solver"
     },
     {
         name: "Rahul Singh",
+        age:23,
         pic: "https://randomuser.me/api/portraits/men/5.jpg",
         bio: "Python developer and data analyst"
     },
     {
         name: "Pooja Mehta",
+        age:65,
         pic: "https://randomuser.me/api/portraits/women/6.jpg",
         bio: "UI/UX designer with creative mindset"
     },
     {
         name: "Vikas Yadav",
+        age:78,
         pic: "https://randomuser.me/api/portraits/men/7.jpg",
         bio: "Java developer building enterprise apps"
     },
     {
         name: "Neha Kapoor",
+        age:34,
         pic: "https://randomuser.me/api/portraits/women/8.jpg",
         bio: "React developer passionate about web apps"
     },
     {
         name: "Karan Patel",
+        age:45,
         pic: "https://randomuser.me/api/portraits/men/9.jpg",
         bio: "Mobile app developer using Flutter"
     },
     {
         name: "Anjali Desai",
+        age:54,
         pic: "https://randomuser.me/api/portraits/women/10.jpg",
         bio: "Tech enthusiast and software tester"
     }
@@ -70,11 +80,15 @@ function showusers(arr){
         let name=document.createElement("h3")
         name.textContent=user.name
 
+        let age=document.createElement("h3")
+        age.textContent=user.age
+
         let p=document.createElement("p")
         p.textContent=user.bio
 
         content.appendChild(name);
         content.appendChild(p);
+        content.appendChild(age)
 
         card.appendChild(img)
         card.appendChild(blurred_layer)
@@ -109,4 +123,13 @@ function check() {
         msg.style.display = "none";
         showusers(newusers.length ? newusers : users);
     }
+}
+
+let search=document.querySelector("#search")
+search.addEventListener("click", select_val)
+
+
+function select_val(){
+    let age=search.value
+
 }

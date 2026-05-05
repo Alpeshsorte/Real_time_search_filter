@@ -28,6 +28,14 @@ input:focus {
     margin-top: auto;
 }
 
+
+select{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
