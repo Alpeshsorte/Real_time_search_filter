@@ -1,0 +1,26 @@
+{
+  "user": [
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/164_compress.png",
+      "name": "virat kholi",
+      "age": 36,
+      "city": "dheli",
+      "id": "FV3Jd0GKl0c"
+    },
+    {
+      "image": "https://documents.iplt20.com/ipl/IPLHeadshot2026/57.png",
+      "name": "MS dhoni",
+      "age": 46,
+      "city": "ranchi",
+      "id": "JePEdPZSOXE"
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg",
+      "name": "rohit",
+      "age": 37,
+      "city": "mumbai",
+      "id": "p14M4JuXHBE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

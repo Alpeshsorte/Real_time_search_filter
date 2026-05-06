@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRUD APP</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h1>JSON PROJECT</h1>
+
+  <!-- ADD USER -->
+
+  <form id="userForm">
+    <h2>Add User</h2>
+    <input type="text" name="uimage" placeholder="Enter url of image">
+    <input type="text" name="uname" placeholder="Enter Name">
+    <input type="number" name="uage" placeholder="Enter Age">
+    <input type="text" name="ucity" placeholder="Enter City">
+
+    <input type="submit" value="Add User">
+  </form>
+
+  <hr>
+
+  <!-- UPDATE USER -->
+
+  <input type="text" id="userId" placeholder="Enter User ID">
+
+  <button id="getBtn">Get User</button>
+
+  <form id="updateForm">
+
+    <h2>Update User</h2>
+
+    <input type="text" name="uimage" placeholder="Enter url of image">
+    <input type="text" name="uname" placeholder="Update Name">
+    <input type="number" name="uage" placeholder="Update Age">
+    <input type="text" name="ucity" placeholder="Update City">
+
+    <input type="submit" value="Update User">
+
+  </form>
+
+  <hr>
+
+  <!-- DELETE -->
+
+  <input type="text" id="delId" placeholder="Enter Delete ID">
+
+  <button id="delBtn">Delete User</button>
+
+  <hr>
+
+  <!-- SEARCH -->
+
+  <select id="type">
+    <option value="name">Name</option>
+    <option value="age">Age</option>
+    <option value="city">City</option>
+  </select>
+
+  <input type="text" id="searchInp" placeholder="Search">
+
+  <button id="searchBtn">Search</button>
+
+  <button id="showAll">Show All</button>
+
+  <hr>
+
+  <!-- CARD CONTAINER -->
+
+  <div id="container">
+    
+  </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
