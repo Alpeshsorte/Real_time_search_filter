@@ -30,6 +30,8 @@
 
   <button id="getBtn">Get User</button>
 
+  <hr>
+
   <form id="updateForm">
 
     <h2>Update User</h2>
@@ -47,6 +49,8 @@
 
   <!-- DELETE -->
 
+   <h1>Delete data by id </h1>
+
   <input type="text" id="delId" placeholder="Enter Delete ID">
 
   <button id="delBtn">Delete User</button>
@@ -55,6 +59,7 @@
 
   <!-- SEARCH -->
 
+  <h1>search by category </h1>
   <select id="type">
     <option value="name">Name</option>
     <option value="age">Age</option>
@@ -68,6 +73,26 @@
   <button id="showAll">Show All</button>
 
   <hr>
+
+
+   <!-- filter -->
+
+    <h1> sort by value </h1>
+    <select id="condition">
+        <option value="gt">greater than</option>
+        <option value="gte">greater than equal to</option>
+        <option value="lt">less than</option>
+        <option value="lte">less than equal to</option>
+        <option value="eq">equal to</option>
+        <option value="ne">not equal to</option>
+    </select>
+
+    <input type="text" id="sortValue" placeholder="enter value">
+
+    <button id="sortbtn">Sort</button>
+
+
+    <hr>
 
   <!-- CARD CONTAINER -->
 

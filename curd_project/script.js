@@ -130,14 +130,22 @@ async function searchUser() {
 
     let type = document.getElementById("type").value
 
-    let value = document.getElementById("searchInp").value
+    let value = document.getElementById("searchInp").value.trim()
 
-    let res = await fetch(`${BASE_URL}?${type}_like=${value}`)
+    let res
+
+    if(type === "age"){
+        res = await fetch(`${BASE_URL}?age=${value}`)
+
+    }else{
+        res = await fetch(`${BASE_URL}?${type}_like=${value}`)
+    }
 
     let data = await res.json()
 
     if(data.length === 0) {
         alert("No User Found")
+        return
     }
 
     showData(data)
@@ -178,4 +186,53 @@ function showData(arr) {
 
         container.append(card)
     })
+}
+
+
+let sortBtn = document.getElementById("sortbtn")
+
+sortBtn.addEventListener("click", sortData)
+
+async function sortData(){
+
+    try {
+
+        let condition = document.getElementById("condition").value
+
+        let value = document.getElementById("sortValue").value
+
+        if(value === ""){
+            alert("Please Enter Value")
+            return
+        }
+
+        let res
+
+        if(condition === "eq"){
+
+            res = await fetch(`http://localhost:3000/user?age=${value}`)
+
+        }
+        else if(condition === "ne"){
+
+            res = await fetch(`http://localhost:3000/user?age_ne=${value}`)
+
+        }
+        else{
+
+            res = await fetch(`http://localhost:3000/user?age_${condition}=${value}`)
+        }
+
+        let data = await res.json()
+
+        console.log(data)
+
+        if(data.length === 0){
+            alert("No User Found")
+        }
+
+    } catch(error){
+
+        console.log(error)
+    }
 }

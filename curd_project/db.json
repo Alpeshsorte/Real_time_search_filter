@@ -20,6 +20,125 @@
       "age": 37,
       "city": "mumbai",
       "id": "p14M4JuXHBE"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/1124_compress.png",
+      "name": "jasprit bumrah",
+      "age": 31,
+      "city": "vadodara",
+      "id": "4"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/2740_compress.png",
+      "name": "Hardik pandya",
+      "age": 31,
+      "city": "ahmedabad",
+      "id": "5"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/2972_compress.png",
+      "name": "shubman gill",
+      "age": 25,
+      "city": "fazilka",
+      "id": "6"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/9_compress.png",
+      "name": "ravindra jadeja",
+      "age": 36,
+      "city": "jamnagar",
+      "id": "7"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/261_compress.png",
+      "name": "kl rahul",
+      "age": 33,
+      "city": "bangalore",
+      "id": "8"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/94_compress.png",
+      "name": "rishabh pant",
+      "age": 27,
+      "city": "roorkee",
+      "id": "9"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/1563_compress.png",
+      "name": "suryakumar yadav",
+      "age": 34,
+      "city": "mumbai",
+      "id": "10"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/102_compress.png",
+      "name": "yuzvendra chahal",
+      "age": 34,
+      "city": "jind",
+      "id": "11"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/964_compress.png",
+      "name": "mohammed siraj",
+      "age": 31,
+      "city": "hyderabad",
+      "id": "12"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/111_compress.png",
+      "name": "ishan kishan",
+      "age": 26,
+      "city": "patna",
+      "id": "13"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/17_compress.png",
+      "name": "axar patel",
+      "age": 31,
+      "city": "anand",
+      "id": "14"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/19351_compress.png",
+      "name": "arshdeep singh",
+      "age": 26,
+      "city": "guna",
+      "id": "15"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/8733_compress.png",
+      "name": "shivam dube",
+      "age": 31,
+      "city": "mumbai",
+      "id": "16"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/1745_compress.png",
+      "name": "sanju samson",
+      "age": 30,
+      "city": "trivandrum",
+      "id": "17"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/107_compress.png",
+      "name": "kuldeep yadav",
+      "age": 30,
+      "city": "kanpur",
+      "id": "18"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/49_compress.png",
+      "name": "bhuvneshwar kumar",
+      "age": 35,
+      "city": "meerut",
+      "id": "19"
+    },
+    {
+      "image": "https://documents.bcci.tv/resizedimageskirti/8_compress.png",
+      "name": "ravichandran ashwin",
+      "age": 38,
+      "city": "chennai",
+      "id": "20"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
